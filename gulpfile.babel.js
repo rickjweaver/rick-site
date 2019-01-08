@@ -12,6 +12,7 @@ gulp.task('default', cb =>
     'copy',
     ['lint', 'scripts', 'images'],
     'nunjucks',
+    'build',
     cb
   )
 );
