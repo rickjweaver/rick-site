@@ -1,4 +1,4 @@
-.container {
+.ccontainer {
   position: relative;
   width: 80%;
 }
@@ -21,21 +21,22 @@
   transition: .5s ease;
 }
 
-.container:hover .overlay {
+.card-deck:hover .overlay {
   width: 100%;
+  cursor: pointer;
 }
 
 .text {
   color: rgb(0, 255, 42);
-  font-size: 30px;
+  font-size: 20px;
   font-family: 'kabel', 'times new roman';
+  text-align: justify;
   position: absolute;
-  top:10%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  white-space: nowrap;
+  top: 10%;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-rendering: optimizelegibility;
 }
 
 nav {
