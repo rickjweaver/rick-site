@@ -7,3 +7,4 @@ module.exports = () => {
     .pipe(cache(imagemin()))
     .pipe(gulp.dest('./docs/assets/img'))
 };
+
