@@ -21,12 +21,30 @@
   <link rel="stylesheet" href="css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Khula|Tangerine|Cinzel" rel="stylesheet">
 </head>
-<body class="bg">
+<body class="bg" id="base">
   {% include "_partials/nav.njk" %}
 
   {% block content %}{% endblock %}
 
-  {% include "_partials/footer.njk" %}
+  <footer class="footer" id="base">
+  <div class="container"> 
+    <div class="row mb-0">
+
+      <div class="col-12 mb-0" id="legal">
+        <small>&copy; <span class="copyright-year"></span>
+        Rick Weaver
+        <a href="mailto:rickjweaver@gmail.com"><img src="assets/img/email.png" width="28px"/></a>
+        <a href="https://dinnermusic.bandcamp.com" target="_blank"><img src="assets/img/bandcamp.png" width="28px"/></a> 
+        <a href="https://open.spotify.com/artist/0skLOQFAMeeHRBwat3zSlk" target="_blank"><img src="assets/img/spotify.png" width="28px"/></a> 
+        <a href="https://soundcloud.com/humanconduct" target="_blank"><img src="assets/img/soundcloud.png" width="28px"/></a> 
+        <a href="https://vimeo.com/user12053191" target="_blank"><img src="assets/img/vimeo.png" width="28px"/></a> 
+        <a href="https://www.youtube.com/channel/UC4t8EdzK7YuMZEMvc1RM1Hg" target="_blank"><img src="assets/img/youtube.png" width="28px"/></a>
+        <a href="https://twitter.com/rickjweaver1" target="_blank"><img src="assets/img/twitter.png" width="28px"/></a> 
+        etc.
+      </div>
+    </div>  
+  </div>
+</footer>
 
   <script src="js/jquery.js"></script>
   <script src="js/popper.js"></script>
