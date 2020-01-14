@@ -1,6 +1,6 @@
 .container {
   position: relative;
-  width: 90%;
+  width: 100%;
 }
 
 .row {
@@ -17,11 +17,11 @@
   height: auto;
 }
 
-.card-img-top {
-display: block;
-max-width: 100%;
-height: auto;
-}
+// .card-img-top {
+// display: block;
+// max-width: 100%;
+// height: auto;
+// }
 
 .overlay {
   position: absolute;
@@ -46,7 +46,7 @@ height: auto;
   background-color:rgb(240, 0, 0);
 }
 
-.card-deck:hover .overlay {
+a:hover .overlay {
   width: 100%;
   cursor: pointer;
 }
