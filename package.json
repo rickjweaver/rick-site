@@ -43,9 +43,11 @@
   },
   "dependencies": {
     "bootstrap": "^4.6.0",
+    "bufferutil": "^3.0.5",
     "infinite-scroll": "^3.0.6",
     "jquery": "^3.5.1",
     "lozad": "^1.16.0",
-    "popper.js": "^1.16.0"
+    "popper.js": "^1.16.0",
+    "ws": "^1.1.5"
   }
 }
